@@ -1,4 +1,4 @@
-require('dotenv').config({ path: './backend/.env' }); // Load environment variables
+require('dotenv').config(); // Load environment variables
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
